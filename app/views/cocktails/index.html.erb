@@ -5,7 +5,7 @@
     <% @cocktails.each do |cocktail| %>
       <div class="col-6 card p-4">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="https://cdn.liquor.com/wp-content/uploads/2011/01/diamond_blue-newest.jpg">
+          <!--  <img class="activator" src="https://cdn.liquor.com/wp-content/uploads/2011/01/diamond_blue-newest.jpg"> -->
         </div>
         <p><%= link_to cocktail.name, cocktail_path(cocktail) %>
           <%= link_to cocktail_path(cocktail), method: :delete, data: {confirm: "Delete?"} do  %>
